@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 title                    : "Foster's Portfolio"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Foster Irwin"
 description              : "A Utah Web Developer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -58,14 +58,14 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : lunr
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         :
+  index_name             :
+  search_only_api_key    :
+  powered_by             :
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -104,9 +104,9 @@ author:
   avatar           : "/assets/images/bio-pic.jpg"
   bio              : "A Utah Web Developer."
   location         : "SLC, UT"
-  email            :
-  uri              : "https://jfirwin.com"
-  home             : "https://jfirwin.com"
+  email            : "foster@jfirwin.com"
+  uri              :
+  home             :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -204,6 +204,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-algolia
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -212,6 +213,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-algolia
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -281,5 +283,6 @@ defaults:
       type: portfolio
     values:
       layout: single
+      read_time: true
       author_profile: true
       share: true

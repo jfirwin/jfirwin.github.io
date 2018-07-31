@@ -1,0 +1,19 @@
+{% assign experience = page.experience %}
+
+<div>
+  {% for job in experience %}
+    <div style="display:flex;flex-wrap:wrap;justify-content:center">
+      <img src="{{job.image_path}}" alt="{{job.alt}}"/>
+      <div>
+        <h3 style="margin-bottom:0.5em">{{job.company}}</h3>
+        <p style="margin-bottom:0.5em;margin-top:0.5em;font-style:italic;font-weight:normal">{{job.title}}</p>
+        {% if job.current == true %}
+          <p style="margin-bottom:0.5em;margin-top:0.5em;font-weight:lighter;">{{job.start}} — Present</p>
+        {% else %}
+          <p style="margin-bottom:0.5em;margin-top:0.5em;font-style:italic;font-weight:lighter;">{{job.start}} — {{job.end}}</p>
+        {% endif %}
+        <p>{{job.responsibilities}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

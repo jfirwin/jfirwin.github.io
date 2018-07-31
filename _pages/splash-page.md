@@ -11,56 +11,40 @@ header:
   cta_url: "/portfolio"
   caption: "Photo credit: [**Marilyn Irwin**](https://instagram.com/marilyn.m.irwin)"
 excerpt: "Hi! I'm Foster Irwin. I like bikes, code, camping, and the Oxford Comma. Parks, Recreation, and Tourism was my major at the University of Utah. I learned how to teach others in that program, and I learned that I never want to stop teaching myself. <br/> <br/>So now I program."
-intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+about_row:
+  - image_path: /assets/images/bio-pic.jpg
+    alt: "Foster Irwin"
+    title: "Parks, Rec, & Tourism =/= Programming?"
+    excerpt: "I know, I know. When you think of Parks & Rec you think of Leslie Knope, Andy Dwire, or Ron Swanson. The truth is, programming is something I have always loved since I was a kid. I first learned how to work with HTML when I was trying to get my MySpace theme just perfect. (yuck) I always knew that programming would be something I would pursue."
+    url: "/about"
+    btn_label: "Read About Me"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+contact_row:
+  - image_path: #
+    alt: #
+    title: "Let's Connect"
+    excerpt: ""
+    url: "/contact"
+    btn_label: "Contact Foster"
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="about_row" type="right" %}
 
-{% include feature_row %}
+{% include feature_row id="contact_row" type="center" %}
 
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
+<div class="feature__wrapper">
+    <div class="feature__item--center">
+      <div class="archive__item">
+        <div class="archive__item-body">
+            <h2 class="archive__item-title">Recent Blog Posts</h2>
+        </div>
+      </div>
+    </div>
+    <div class="grid__wrapper">
+      {% for post in site.posts limit:4 %}
+        {% include archive-single.html type="grid" %}
+      {% endfor %}
+      <a href="/blog" class="btn btn--primary">View Other Blog Posts</a>
+    </div>
+</div>
