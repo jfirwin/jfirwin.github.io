@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title:  "GitHub Pages ❤️ Jekyll"
+title:  "Creating Custom Icons for 🍎"
 date:   2018-07-25 09:18:15 -0600
 categories: jekyll update
 header:
