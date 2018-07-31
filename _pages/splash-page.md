@@ -42,9 +42,7 @@ contact_row:
       </div>
     </div>
     <div class="grid__wrapper">
-      {% for post in site.posts limit:4 %}
-        {% include archive-single.html type="grid" %}
-      {% endfor %}
+      {% include blog_wrapper %}
       <a href="/blog" class="btn btn--primary">View Other Blog Posts</a>
     </div>
 </div>
