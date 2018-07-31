@@ -1,0 +1,30 @@
+<figure style="justify-content:space-around">
+  {% for img in site.static_files %}
+    {% if img.path contains 'images/tech' %}
+      <a style="text-decoration: none; color: grey; font-style: italic; font-size: 0.6em"
+        {% if img.title %}title="{{ img.title }}"{% endif %}
+      >
+        <img style="margin-bottom: 0px;height:100px;width:100px;"
+          src=
+          {% if img.image_path contains "://" %}
+            "{{ img.image_path }}"
+          {% else %}
+            "{{ img.image_path | relative_url }}"
+          {% endif %}
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        <p style="margin-top: 0px; text-align: center;">{% if img.title%}{{ img.title}}{% endif %}</p>
+      </a>
+    {% else %}
+      <img src=
+        {% if img.image_path contains "://" %}
+          "{{ img.image_path }}"
+        {% else %}
+          "{{ img.image_path | relative_url }}"
+        {% endif %}
+        alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    {% endif %}
+  {% endfor %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>
