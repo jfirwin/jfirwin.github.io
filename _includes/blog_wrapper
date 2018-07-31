@@ -1,3 +1,15 @@
-{% for post in site.posts limit:4 %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+<div class="feature__wrapper">
+    <div class="feature__item--center">
+      <div class="archive__item">
+        <div class="archive__item-body">
+            <h2 class="archive__item-title">Recent Blog Posts</h2>
+        </div>
+      </div>
+    </div>
+    <div class="grid__wrapper">
+      {% for post in site.posts limit:4 %}
+        {% include archive-single.html type="grid" %}
+      {% endfor %}
+      <a href="/blog" class="btn btn--primary">View Other Blog Posts</a>
+    </div>
+</div>

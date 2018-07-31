@@ -33,16 +33,4 @@ contact_row:
 
 {% include feature_row id="contact_row" type="center" %}
 
-<div class="feature__wrapper">
-    <div class="feature__item--center">
-      <div class="archive__item">
-        <div class="archive__item-body">
-            <h2 class="archive__item-title">Recent Blog Posts</h2>
-        </div>
-      </div>
-    </div>
-    <div class="grid__wrapper">
-      {% include blog_wrapper %}
-      <a href="/blog" class="btn btn--primary">View Other Blog Posts</a>
-    </div>
-</div>
+{% include blog_wrapper %}
