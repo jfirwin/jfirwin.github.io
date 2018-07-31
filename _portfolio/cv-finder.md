@@ -31,24 +31,24 @@ gallery:
     alt: "placeholder image 3"
     title: "Caption 3"
 technology:
-  - url: /assets/images/tech/react.png
-    image_path: assets/images/tech/react.png
+  - url: /assets/images/tech/react.svg
+    image_path: assets/images/tech/react.svg
     alt: "ReactJS"
     title: "ReactJS"
-  - url: /assets/images/tech/redux.png
-    image_path: assets/images/tech/redux.png
+  - url: /assets/images/tech/redux.svg
+    image_path: assets/images/tech/redux.svg
     alt: "Redux"
     title: "Redux"
-  - url: /assets/images/tech/nodejs.png
-    image_path: assets/images/tech/nodejs.png
+  - url: /assets/images/tech/nodejs.svg
+    image_path: assets/images/tech/nodejs.svg
     alt: "NodeJS"
     title: "NodeJS"
-  - url: /assets/images/tech/postgresql.png
-    image_path: assets/images/tech/postgresql.png
+  - url: /assets/images/tech/postgresql.svg
+    image_path: assets/images/tech/postgresql.svg
     alt: "PostgreSQL"
     title: "PostgreSQL"
-  - url: /assets/images/tech/auth0.png
-    image_path: assets/images/tech/auth0.png
+  - url: /assets/images/tech/auth0.svg
+    image_path: assets/images/tech/auth0.svg
     alt: "Auth0"
     title: "Auth0"
 classes: wide
