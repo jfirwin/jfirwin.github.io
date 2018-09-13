@@ -10,7 +10,7 @@ header:
   cta_label: "View My Portfolio"
   cta_url: "/portfolio"
   caption: "Photo credit: [**Marilyn Irwin**](https://instagram.com/marilyn.m.irwin)"
-excerpt: "Hi! I'm Foster Irwin. I like bikes, code, camping, and the Oxford Comma. Parks, Recreation, and Tourism was my major at the University of Utah. I learned how to teach others in that program, and I learned that I never want to stop teaching myself. <br/> <br/>So now I program."
+excerpt: "Hi! I'm Foster Irwin. I like bikes, code, camping, and the Oxford Comma. Parks, Recreation, and Tourism was my major at the University of Utah. I learned how to teach others in that program, but I discovered that I never want to stop teaching myself. <br/> <br/>So now I program."
 about_row:
   - image_path: /assets/images/bio-pic.jpg
     alt: "Foster Irwin"
