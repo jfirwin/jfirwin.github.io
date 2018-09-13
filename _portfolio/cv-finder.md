@@ -4,8 +4,8 @@ excerpt: |
   CV Finder was developed to allow people to create a hosted resume online.
   ReactJS • Redux • NodeJS
 header:
-  image: /assets/images/bike-zion-thin.jpg
-  teaser: /assets/images/bike-zion.jpg
+  image: /assets/images/cv-finder/preview.png
+  teaser: /assets/images/cv-finder/preview.png
 sidebar:
   - title: "Hosted Project"
     text: "[CV Finder](https://cvfinder.jfirwin.com)"
@@ -18,18 +18,18 @@ sidebar:
   - title: "My Responsibilities"
     text: "Managed the NodeJS server. This included creating a RESTful API and managing the PostgreSQL Database."
 gallery:
-  - url: /assets/images/devils-tower.jpg
-    image_path: assets/images/devils-tower.jpg
-    alt: "placeholder image 1"
-    title: "Caption 1"
-  - url: /assets/images/devils-tower.jpg
-    image_path: assets/images/devils-tower.jpg
-    alt: "placeholder image 2"
-    title: "Caption 2"
-  - url: /assets/images/devils-tower.jpg
-    image_path: assets/images/devils-tower.jpg
-    alt: "placeholder image 3"
-    title: "Caption 3"
+  - url: /assets/images/cv-finder/home-screen.png
+    image_path: /assets/images/cv-finder/home-screen.png
+    alt: "CV Finder Homepage"
+    title: "Homepage View"
+  - url: /assets/images/cv-finder/search-screen.png
+    image_path: /assets/images/cv-finder/search-screen.png
+    alt: "CV Finder Search"
+    title: "Search View"
+  - url: /assets/images/cv-finder/profile-view.png
+    image_path: /assets/images/cv-finder/profile-view.png
+    alt: "CV Finder Profile View"
+    title: "Profile View"
 technology:
   - url: /assets/images/tech/react.svg
     image_path: assets/images/tech/react.svg
@@ -124,11 +124,3 @@ We finally muddled our way through the convoluted nightmare of a reducer, and ho
 ## Technologies Used
 
 {% include tech_stack id="technology" %}
-
-## Features
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-My role initially was to set up the backend. We used PostgreSQL & NodeJS. I put together a RESTful API and modularized the `index.js` folder so that it is only X lines long. I learned that I _really_ enjoy writing up the server side. SQL was challenging but I figured out a way to do it. I learned a lot about how not to set things up in the future to prevent a lot of headache.
