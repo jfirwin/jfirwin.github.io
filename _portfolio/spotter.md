@@ -4,8 +4,8 @@ excerpt: |
   Spotter is an Airbnb-style clone with an emphasis on rock climbing.
   ReactJS • Redux • NodeJS • LeafletJS
 header:
-  image: /assets/images/spotter/preview.png
-  teaser: /assets/images/spotter/preview.png
+  image: /assets/images/portfolio/spotter/preview.png
+  teaser: /assets/images/portfolio/spotter/preview.png
 sidebar:
   - title: "Hosted Project"
     text: "[Spotter](https://spotter.jfirwin.com)"
@@ -18,16 +18,16 @@ sidebar:
   - title: "My Responsibilities"
     text: "Managed all aspects of this project."
 gallery:
-  - url: /assets/images/spotter/home.png
-    image_path: /assets/images/spotter/home.png
+  - url: /assets/images/portfolio/spotter/home.png
+    image_path: /assets/images/portfolio/spotter/home.png
     alt: "Spotter Homepage"
     title: "Homepage View"
-  - url: /assets/images/spotter/search.png
-    image_path: /assets/images/spotter/search.png
+  - url: /assets/images/portfolio/spotter/search.png
+    image_path: /assets/images/portfolio/spotter/search.png
     alt: "Spotter Search"
     title: "Search View"
-  - url: /assets/images/spotter/edit.png
-    image_path: /assets/images/spotter/edit.png
+  - url: /assets/images/portfolio/spotter/edit.png
+    image_path: /assets/images/portfolio/spotter/edit.png
     alt: "Spotter Edit"
     title: "Profile View"
 technology:

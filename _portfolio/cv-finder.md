@@ -4,8 +4,8 @@ excerpt: |
   CV Finder was developed to allow people to create a hosted resume online.
   ReactJS • Redux • NodeJS
 header:
-  image: /assets/images/cv-finder/preview.png
-  teaser: /assets/images/cv-finder/preview.png
+  image: /assets/images/portfolio/cv-finder/preview.png
+  teaser: /assets/images/portfolio/cv-finder/preview.png
 sidebar:
   - title: "Hosted Project"
     text: "[CV Finder](https://cvfinder.jfirwin.com)"
@@ -18,16 +18,16 @@ sidebar:
   - title: "My Responsibilities"
     text: "Managed the NodeJS server. This included creating a RESTful API and managing the PostgreSQL Database."
 gallery:
-  - url: /assets/images/cv-finder/home-screen.png
-    image_path: /assets/images/cv-finder/home-screen.png
+  - url: /assets/images/portfolio/cv-finder/home-screen.png
+    image_path: /assets/images/portfolio/cv-finder/home-screen.png
     alt: "CV Finder Homepage"
     title: "Homepage View"
-  - url: /assets/images/cv-finder/search-screen.png
-    image_path: /assets/images/cv-finder/search-screen.png
+  - url: /assets/images/portfolio/cv-finder/search-screen.png
+    image_path: /assets/images/portfolio/cv-finder/search-screen.png
     alt: "CV Finder Search"
     title: "Search View"
-  - url: /assets/images/cv-finder/profile-view.png
-    image_path: /assets/images/cv-finder/profile-view.png
+  - url: /assets/images/portfolio/cv-finder/profile-view.png
+    image_path: /assets/images/portfolio/cv-finder/profile-view.png
     alt: "CV Finder Profile View"
     title: "Profile View"
 technology:
