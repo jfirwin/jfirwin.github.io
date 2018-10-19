@@ -24,6 +24,17 @@ Hi! My name is Foster Irwin. I love Utah and the outdoors. I've always liked kno
 
 Thanks for checking out my website. Make sure to stop by my [Portfolio](/porfolio) & [Blog](/blog) to see what it is that I'm doing. [Contact](/contact) me if you are interested in working together, or if you have any questions!
 
+## Recommendations
+> You don't know it yet, but you definitely want Foster on your team.
+>
+> Foster is a talented problem solver that can find creative solutions and execute them well. His work at our company was extremely valuable across our spectrum of company needs and functions both in our stores and in our warehouse/internet operation. His accuracy and attention to detail are among his many great attributes. Foster works hard and puts his passion into everything he does. I can't overstate this enough, Foster will be a huge asset to whatever project/team/company where he spends his time and attention.
+>
+> --- Brad Rowberry, Infinite Cycles Co-Owner
+
+>Foster is extremely hard working, organized, and eager to learn. He is persistent and calm when tackling hard problems, and I am confident in his ability to implement good solutions while creating web apps. His curiosity and drive enables him to pick up new tech easily. Because of his persistence in tackling problems and desire to learn new things, I’d recommend him for software positions even if they’re outside his normal tech stack.
+>
+> --- Luke Schunk, DevMountain Instructor
+
 ## Education
 
 {% include feature_row_borderless id="education_row" type="right" %}
