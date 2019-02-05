@@ -5,8 +5,8 @@ title:  "If you use a Mac, Automator is your friend"
 date:   2018-09-19 09:18:00 -0600
 categories: mac custom application
 header:
-  image: /assets/images/bike-zion.jpg
-  teaser: /assets/images/bike-zion.jpg
+  image: /assets/images/posts/using-automator/using-automator.png
+  teaser: /assets/images/posts/using-automator/using-automator.png
 ---
 If you use a Mac to do repetitive actions on a daily basis and you don't know what Automator is, you are about to have your mind blown. At least, that's how I felt when I was first introduced to Automator. The best part is that there is no download necessary! It comes with MacOS as a default application.
 
